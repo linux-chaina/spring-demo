@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+    此文件 用于com.example.demo.spring.bean.xml.DemoXmlMain 使用，
+    演示如何通过xml创建容器，并获取bean。
+    此文件需要放到classPath下
+    -->
+    <bean id="user" class="com.example.demo.domain.User">
+        <property name="name" value="xmlName"/>
+        <property name="age" value="13"/>
+    </bean>
+</beans>
